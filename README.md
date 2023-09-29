@@ -1,6 +1,6 @@
 #Master Ming Fu
 
-Microsoft released a very useful feature called "Azure Access Management Delegation" (https://learn.microsoft.com/en-us/azure/role-based-access-control/delegate-role-assignments-overview)
+Microsoft released a very useful feature called [Azure Access Management Delegation](https://learn.microsoft.com/en-us/azure/role-based-access-control/delegate-role-assignments-overview)
 
 If it helps addressing a lot of critical Segregation Of Duties (SOD) limitations with the current RBAC system, some important issues remain.
 
