@@ -40,4 +40,7 @@ Master Ming Fu will detect the following violations:
 - check if delegate attempts to assign an operational role to one of her user-assigned MI
 - handle more complex boolean conditions
 - handle collusion scenarios involving several delegates(?)
+- enlarge the scope
+- work across multiple scopes
+- perform not only whatif simulations, but also consistency checks between a desired condition and ground truth
 
