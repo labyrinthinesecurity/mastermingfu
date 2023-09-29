@@ -26,4 +26,16 @@ Master MingFu will ask for an Azure condition to test. Just hit return to use th
 
 ## IAM violations
 
+Master Ming Fu will detect the following violations:
+
+- a delegate attempts to assign an operational role to her own principal ID
+- a delegate attempts to assign an operational role to a Group she belongs to
+- a delegate attempts to assign an operational role to all principals of type Users (including herself)
+- a delegate attempts to assign an IAM role which is not ReadOnly
+
+## To be done / work in progress
+
+- check if delegate attempts to assign an operational role to one of her user-assigned MI
+- handle more complex boolean conditions
+- handle collusion scenarios involving several delegates(?)
 
